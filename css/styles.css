@@ -205,19 +205,22 @@ margin-right: 30px;
 .advantages-items {
     display: flex;
     gap: 30px;
+    align-items: center;
 } 
-.advantages-icon {
-    display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
 
 .advantages-item-list {
     flex-basis: calc((100% - 90px)/4);
-    
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
 }
 
+.advantages-icon {
+    display: flex;
+    
+}
 
 .content-section.about-section {
     padding-top: 0;
