@@ -133,7 +133,6 @@ margin-right: 30px;
 
 .icon-contact {
     fill: currentColor;
-    
 }
 .contact-phone-number {
     display: flex;
@@ -503,7 +502,6 @@ flex-basis: calc((100% - 150px)/6);
 .menu-icon-link :hover,
 .menu-icon-link :focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
 
     .about-icon {
