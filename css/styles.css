@@ -205,13 +205,12 @@ margin-right: 30px;
 .advantages-items {
     display: flex;
     gap: 30px;
-    align-items: center;
     
 } 
 
 .advantages-item-list {
     flex-basis: calc((100% - 90px)/4);
-        align-items: center;
+align-items: center;
         justify-content: center;
         
 }
@@ -220,6 +219,7 @@ margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
     height: 120px;
@@ -289,7 +289,7 @@ margin-right: 8px;
 }
 
 .title-items {
-margin-bottom: 10px;
+margin-bottom: 20px;
 
     font-weight: 700;
     font-size: 14px;
@@ -353,9 +353,7 @@ color: var(--secondary-text-color);
 }
 
 .social-list-icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--secondary-text-color)
+    fill: #AFB1B8;
 }
 
 .social-link {
@@ -405,7 +403,6 @@ flex-basis: calc((100% - 150px)/6);
     display: flex;
     align-items: center;
     justify-content: center;
-     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -424,7 +421,7 @@ flex-basis: calc((100% - 150px)/6);
 
 
 .client-logo{
-    fill: var(--secondary-text-color);
+    fill: #AFB1B8;
     }
 
 .second-logo-footer {
@@ -500,8 +497,8 @@ flex-basis: calc((100% - 150px)/6);
     background: var(--primary-background-color);
     
     }
-.menu-icon:hover,
-.menu-icon:focus {
+.menu-icon-link :hover,
+.menu-icon-link :focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
